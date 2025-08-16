@@ -4,8 +4,19 @@ __pycache__/
 .env
 .vscode/
 *.ipynb_checkpoints
-data/replays/
-data/processed/
-models/
-outputs/
+# Ignore contents, but keep folders via .gitkeep
+data/replays/*
+!data/replays/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+models/*
+!models/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+
+outputs/heatmaps/*
+!outputs/heatmaps/.gitkeep
 .venv/
